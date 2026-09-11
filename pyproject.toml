@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bili-downloader"
+version = "0.1.0"
+description = "A small Bilibili video downloader"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+yt-dlp = "*"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.13"
+pytest = "^8.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
